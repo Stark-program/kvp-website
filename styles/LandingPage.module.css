@@ -1,0 +1,147 @@
+.webpageContainer {
+  background: #e5e5e5;
+}
+
+.container {
+  position: relative;
+  width: 1440px;
+  height: 2880px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+/* ################################################################# HEADER ############################################# */
+.headerLogoTitle {
+  position: absolute;
+  width: 197.55px;
+  height: 45px;
+  left: 154.08px;
+  top: 44px;
+}
+
+.headerNavigationContainer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 454px;
+  height: 18px;
+  left: 493px;
+  top: 58px;
+  margin: 0;
+  padding: 0;
+}
+
+.headerNavigationLink {
+  display: inline-block;
+  margin: auto;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 0px;
+}
+
+.headerNavigationLink:hover {
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+}
+
+.headerButton {
+  display: flex;
+  border: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  left: 1145px;
+  top: 43px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #eacd67;
+  cursor: pointer;
+}
+.headerLineUnderHome {
+  position: absolute;
+  left: 28px;
+  width: 42px;
+  top: 76px;
+  border: 1px solid #e2e2e2;
+  z-index: 999;
+}
+.headerLineUnderMarketplace {
+  position: absolute;
+
+  left: 140px;
+  width: 42px;
+  top: 76px;
+  border: 1px solid #e2e2e2;
+  z-index: 999;
+}
+.headerLineUnderResource {
+  position: absolute;
+  left: 270px;
+  width: 42px;
+  top: 76px;
+  border: 1px solid #e2e2e2;
+  z-index: 999;
+}
+.headerLineUnderAbout {
+  position: absolute;
+  left: 385px;
+  width: 42px;
+  top: 76px;
+  border: 1px solid #e2e2e2;
+  z-index: 999;
+}
+.headerNavigationLink:hover hr {
+  border: 1px solid #000000;
+}
+
+.headerLineBreak {
+  position: absolute;
+  width: 1442px;
+  height: 0px;
+  left: 1.5px;
+  top: 133px;
+  border: 1px solid #e2e2e2;
+}
+
+/*############################################################## HEADER ################################################ */
+
+/* ###################################################      BODY   ######################################################*/
+
+.bodyMainHeader {
+  position: absolute;
+  width: 699px;
+  height: 198px;
+  left: 362px;
+  top: 251px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 142%;
+  /* or 99px */
+
+  text-align: center;
+  letter-spacing: -0.015em;
+
+  color: #000000;
+}
