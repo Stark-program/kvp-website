@@ -1,43 +1,43 @@
 import Head from "next/head";
 import kvpLogo from "../kvp-logo.png";
+
 import styles from "../styles/LandingPage.module.css";
 
 export default function Home() {
   console.log(kvpLogo);
   return (
-    <div className={styles.webpageContainer}>
-      <div className={styles.container}>
+    <div className="">
+      <div className="">
         <div className="headerComponent" /* THIS IS OUR HEADER COMPONENT*/>
-          <div className={styles.headerLogoTitle}>
+          <div className="">
             <img src={kvpLogo.src} />
           </div>
 
-          <ul className={styles.headerNavigationContainer}>
-            <li className={styles.headerNavigationLink}>
+          <ul className="">
+            <li className="">
               Home
-              <hr className={styles.headerLineUnderHome}></hr>
+              <hr className=""></hr>
             </li>
-            <li className={styles.headerNavigationLink}>
+            <li className="text-lg">
               Marketplace
-              <hr className={styles.headerLineUnderMarketplace}></hr>
+              <hr className=""></hr>
             </li>
-            <li className={styles.headerNavigationLink}>
+            <li className="">
               Resource
-              <hr className={styles.headerLineUnderResource}></hr>
+              <hr className=""></hr>
             </li>
-            <lit className={styles.headerNavigationLink}>
+            <lit className="">
               About
-              <hr className={styles.headerLineUnderAbout}></hr>
+              <hr className=""></hr>
             </lit>
           </ul>
 
-          <button className={styles.headerButton}>Buy Our NFT</button>
+          <button className="">Buy Our NFT</button>
         </div>
-        <hr className={styles.headerLineBreak}></hr>
+        <hr className=""></hr>
         <div className="" /* body component */>
-          <h1 className={styles.bodyMainHeader}>
-            Discover, and collect Digital Art NFTs
-          </h1>
+          <h1 className="">Buy your KEY to a vacation home!</h1>
+          <p className="">Testing</p>
         </div>
       </div>
     </div>

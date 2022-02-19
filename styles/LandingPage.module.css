@@ -11,7 +11,7 @@
 }
 
 /* ################################################################# HEADER ############################################# */
-.headerLogoTitle {
+/* .headerLogoTitle {
   position: absolute;
   width: 197.55px;
   height: 45px;
@@ -70,7 +70,7 @@
 
   /* Inside auto layout */
 
-  flex: none;
+/* flex: none;
   order: 0;
   flex-grow: 0;
   background: #eacd67;
@@ -126,7 +126,7 @@
 
 /* ###################################################      BODY   ######################################################*/
 
-.bodyMainHeader {
+/* .bodyMainHeader {
   position: absolute;
   width: 699px;
   height: 198px;
@@ -140,8 +140,26 @@
   line-height: 142%;
   /* or 99px */
 
-  text-align: center;
+/* text-align: center;
   letter-spacing: -0.015em;
 
   color: #000000;
 }
+.bodyTextUnderHeader {
+  position: absolute;
+  width: 669px;
+  height: 58px;
+  left: 377px;
+  top: 479px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+
+/* text-align: center;
+
+  color: #565656;
+}  */
