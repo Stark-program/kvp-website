@@ -9,16 +9,16 @@ export default function Home() {
     <div className="flex justify-center top-4 bg-[#E5E5E5] flex-grow h-screen">
       <div className="w-[1440px] flex flex-col bg-white ">
         <div
-          className="flex justify-between mt-[45px]" /* THIS IS OUR HEADER COMPONENT*/
+          className="flex flex-wrap justify-between mt-[45px]" /* THIS IS OUR HEADER COMPONENT*/
         >
           <div className="flex items-center">
             <svg
-              width="198"
-              height="45"
+              // width="198"
+              // height="45"
               viewBox="0 0 198 45"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-[197px] ml-[25px] "
+              className="md:w-[197px] md:ml-[25px] w-[400px] "
             >
               <path
                 d="M65.2827 5.74917V18.592H62.625V5.74917H65.2827ZM73.0079 5.74917L67.8962 12.0912L64.9461 15.249L64.4677 12.7439L66.461 10.0272L69.7478 5.74917H73.0079ZM69.987 18.592L66.1864 12.6557L68.1531 11.0151L73.132 18.592H69.987Z"
@@ -141,12 +141,15 @@ export default function Home() {
           </button>
         </div>
         <hr className="mt-[45px]"></hr>
-        <div
-          className="flex flex-col items-center mt-[118px]" /* body component */
-        >
+        <div className="flex flex-col items-center " /* body component */>
           <div className="flex flex-col">
-            <div>
-              <span>
+            <span className="relative">
+              <span className="inline-block mt-[118px]">
+                <h1 className="font-bold text-[70px] w-[699px] text-center font-body-header">
+                  Buy your KEY to a vacation home!
+                </h1>
+              </span>
+              {/* <span className="absolute mt-[68px] ml-[92px]">
                 <svg
                   width="119"
                   height="119"
@@ -172,14 +175,11 @@ export default function Home() {
                     fill="#EACD67"
                   />
                 </svg>
-              </span>
-              <h1 className="font-bold text-[70px] w-[699px] text-center font-body-header">
-                Buy your KEY to a vacation home!
-              </h1>
-            </div>
-            <p className="w-[669px] font-body-header text-[18px] text-[#565656] text-center">
-              <span>
-                {/* <svg
+              </span> */}
+            </span>
+            <span className="relative">
+              {/* <span className="absolute mt-[165px] mr-[200px]">
+                <svg
                   width="94"
                   height="91"
                   viewBox="0 0 94 91"
@@ -202,12 +202,17 @@ export default function Home() {
                     d="M80.3036 44.9477L68.2708 75.345L88.797 85.3289L80.3036 44.9477Z"
                     fill="black"
                   />
-                </svg> */}
+                </svg>
+              </span> */}
+              <span className="">
+                <p className="w-[669px] font-body-header text-[18px] text-[#565656] text-center">
+                  Digital marketplace for crypto collectibles and non-fungible
+                  tokens (NFTs). Buy, Sell, and discover exclusive digital
+                  assets.
+                </p>
               </span>
-              Digital marketplace for crypto collectibles and non-fungible
-              tokens (NFTs). Buy, Sell, and discover exclusive digital assets.
-            </p>
-            <div className="flex flex-row justify-center">
+            </span>
+            <div className="flex flex-wrap justify-center">
               <button className="bg-logo-gold flex flex-row justify-center items-center w-[140px] h-[62px] font-body-header text-[14px] mt-[46px] mr-[13px]">
                 Buy our NFT
               </button>
