@@ -1,13 +1,23 @@
 import Head from "next/head";
 import kvpLogo from "../kvp-logo.png";
-
+import { useState, useEffect } from "react";
 import styles from "../styles/LandingPage.module.css";
 
 export default function Home() {
   console.log(kvpLogo);
+
+  const [windowWidth, setWindowWidth] = useState();
+  useEffect(() => {
+    function getWindowSize() {
+      let widthWindow = window.innerWidth;
+      setWindowWidth(widthWindow);
+    }
+    getWindowSize();
+  }, []);
+  console.log("this is width", windowWidth);
   return (
     <div className="flex justify-center top-4 bg-[#E5E5E5] flex-grow h-screen">
-      <div className="w-[1440px] flex flex-col bg-white ">
+      <div className="w-[1440px] flex shrink flex-col bg-white ">
         <div
           className="flex flex-wrap justify-between mt-[45px]" /* THIS IS OUR HEADER COMPONENT*/
         >
@@ -141,78 +151,46 @@ export default function Home() {
           </button>
         </div>
         <hr className="mt-[45px]"></hr>
-        <div className="flex flex-col items-center " /* body component */>
-          <div className="flex flex-col">
-            <span className="relative">
-              <span className="inline-block mt-[118px]">
-                <h1 className="font-bold text-[70px] w-[699px] text-center font-body-header">
-                  Buy your KEY to a vacation home!
-                </h1>
-              </span>
-              {/* <span className="absolute mt-[68px] ml-[92px]">
-                <svg
-                  width="119"
-                  height="119"
-                  viewBox="0 0 119 119"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="flex"
-                >
-                  <path
-                    d="M82.5295 100.207L101.823 84.1457L79.2602 84.0814L82.5295 100.207Z"
-                    fill="#EACD67"
-                  />
-                  <path
-                    d="M71.5187 76.2665L69.6821 64.7324L46.6689 64.3467L71.5187 76.2665Z"
-                    fill="#EACD67"
-                  />
-                  <path
-                    d="M103.238 62.9325L102.059 51.8545L94.0451 53.7401L103.238 62.9325Z"
-                    fill="#EACD67"
-                  />
-                  <path
-                    d="M28.9913 79.196L26.1236 46.6298L3.29979 46.9048L28.9913 79.196Z"
-                    fill="#EACD67"
-                  />
-                </svg>
-              </span> */}
-            </span>
-            <span className="relative">
-              {/* <span className="absolute mt-[165px] mr-[200px]">
-                <svg
-                  width="94"
-                  height="91"
-                  viewBox="0 0 94 91"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M41.8615 2.16921L17.4153 7.87943L37.5564 18.0498L41.8615 2.16921Z"
-                    fill="black"
-                  />
-                  <path
-                    d="M40.974 28.5055L37.4462 39.6394L57.8455 50.2987L40.974 28.5055Z"
-                    fill="black"
-                  />
-                  <path
-                    d="M6.64323 26.2087L2.73154 36.6399L10.7405 38.5461L6.64323 26.2087Z"
-                    fill="black"
-                  />
-                  <path
-                    d="M80.3036 44.9477L68.2708 75.345L88.797 85.3289L80.3036 44.9477Z"
-                    fill="black"
-                  />
-                </svg>
-              </span> */}
-              <span className="">
-                <p className="w-[669px] font-body-header text-[18px] text-[#565656] text-center">
-                  Digital marketplace for crypto collectibles and non-fungible
-                  tokens (NFTs). Buy, Sell, and discover exclusive digital
-                  assets.
-                </p>
-              </span>
-            </span>
-            <div className="flex flex-wrap justify-center">
+        <div
+          className="flex flex-wrap flex-row items-center justify-center" /* body component */
+        >
+          <div className="hidden invisible xl:visible lg:flex lg:h-full lg:items-end lg:justify-end lg:mt-[125px] lg:mr-[46px]">
+            <svg
+              width="94"
+              height="91"
+              viewBox="0 0 94 91"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M41.8615 2.16921L17.4153 7.87943L37.5564 18.0498L41.8615 2.16921Z"
+                fill="black"
+              />
+              <path
+                d="M40.974 28.5055L37.4462 39.6394L57.8455 50.2987L40.974 28.5055Z"
+                fill="black"
+              />
+              <path
+                d="M6.64323 26.2087L2.73154 36.6399L10.7405 38.5461L6.64323 26.2087Z"
+                fill="black"
+              />
+              <path
+                d="M80.3036 44.9477L68.2708 75.345L88.797 85.3289L80.3036 44.9477Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+          <div className="flex shrink-[4] w-6/12 flex-col mt-[118px]">
+            <h1 className="flex shrink font-bold text-[70px] text-center font-body-header">
+              Buy your KEY to a vacation home!
+            </h1>
+
+            <p className="flex shrink font-body-header text-[18px] text-[#565656] text-center">
+              Digital marketplace for crypto collectibles and non-fungible
+              tokens (NFTs). Buy, Sell, and discover exclusive digital assets.
+            </p>
+
+            <div className="flex shrink flex-wrap justify-center">
               <button className="bg-logo-gold flex flex-row justify-center items-center w-[140px] h-[62px] font-body-header text-[14px] mt-[46px] mr-[13px]">
                 Buy our NFT
               </button>
@@ -220,6 +198,32 @@ export default function Home() {
                 White Paper
               </button>
             </div>
+          </div>
+          <div className="hidden invisible xl:visible lg:flex lg:h-full lg:items-start lg:mt-[68px] lg:ml-[92px]">
+            <svg
+              width="119"
+              height="119"
+              viewBox="0 0 119 119"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M82.5295 100.207L101.823 84.1457L79.2602 84.0814L82.5295 100.207Z"
+                fill="#EACD67"
+              />
+              <path
+                d="M71.5187 76.2665L69.6821 64.7324L46.6689 64.3467L71.5187 76.2665Z"
+                fill="#EACD67"
+              />
+              <path
+                d="M103.238 62.9325L102.059 51.8545L94.0451 53.7401L103.238 62.9325Z"
+                fill="#EACD67"
+              />
+              <path
+                d="M28.9913 79.196L26.1236 46.6298L3.29979 46.9048L28.9913 79.196Z"
+                fill="#EACD67"
+              />
+            </svg>
           </div>
         </div>
       </div>
