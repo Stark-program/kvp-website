@@ -16,19 +16,17 @@ export default function Home() {
   }, []);
   console.log("this is width", windowWidth);
   return (
-    <div className="flex justify-center top-4 bg-[#E5E5E5] flex-grow h-screen">
-      <div className="w-[1440px] flex shrink flex-col bg-white ">
-        <div
-          className="flex flex-wrap justify-between mt-[45px]" /* THIS IS OUR HEADER COMPONENT*/
-        >
-          <div className="flex items-center">
+    <div className="">
+      <div className=" ">
+        <div className="" /* THIS IS OUR HEADER COMPONENT*/>
+          <div className="">
             <svg
               // width="198"
               // height="45"
               viewBox="0 0 198 45"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="md:w-[197px] md:ml-[25px] w-[400px] "
+              className=" "
             >
               <path
                 d="M65.2827 5.74917V18.592H62.625V5.74917H65.2827ZM73.0079 5.74917L67.8962 12.0912L64.9461 15.249L64.4677 12.7439L66.461 10.0272L69.7478 5.74917H73.0079ZM69.987 18.592L66.1864 12.6557L68.1531 11.0151L73.132 18.592H69.987Z"
@@ -127,34 +125,30 @@ export default function Home() {
             </svg>
           </div>
 
-          <ul className="flex grow justify-between mr-40 ml-40 items-center">
-            <li className="hover:font-bold">
+          <ul className="">
+            <li className="">
               Home
               <hr className=""></hr>
             </li>
-            <li className="hover:font-bold">
+            <li className="">
               Marketplace
               <hr className=""></hr>
             </li>
-            <li className="hover:font-bold">
+            <li className="">
               Resource
               <hr className=""></hr>
             </li>
-            <li className="hover:font-bold">
+            <li className="">
               About
               <hr className=""></hr>
             </li>
           </ul>
 
-          <button className="flex items-center bg-logo-gold w-[140px] h-[48px] justify-center mr-[25px]">
-            Buy Our NFT
-          </button>
+          <button className="">Buy Our NFT</button>
         </div>
-        <hr className="mt-[45px]"></hr>
-        <div
-          className="flex flex-wrap flex-row items-center justify-center" /* body component */
-        >
-          <div className="hidden invisible xl:visible lg:flex lg:h-full lg:items-end lg:justify-end lg:mt-[125px] lg:mr-[46px]">
+        <hr className=""></hr>
+        <div className="" /* body component */>
+          <div className="">
             <svg
               width="94"
               height="91"
@@ -180,26 +174,20 @@ export default function Home() {
               />
             </svg>
           </div>
-          <div className="flex shrink-[4] w-6/12 flex-col mt-[118px]">
-            <h1 className="flex shrink font-bold text-[70px] text-center font-body-header">
-              Buy your KEY to a vacation home!
-            </h1>
+          <div className="">
+            <h1 className="">Buy your KEY to a vacation home!</h1>
 
-            <p className="flex shrink font-body-header text-[18px] text-[#565656] text-center">
+            <p className="">
               Digital marketplace for crypto collectibles and non-fungible
               tokens (NFTs). Buy, Sell, and discover exclusive digital assets.
             </p>
 
-            <div className="flex shrink flex-wrap justify-center">
-              <button className="bg-logo-gold flex flex-row justify-center items-center w-[140px] h-[62px] font-body-header text-[14px] mt-[46px] mr-[13px]">
-                Buy our NFT
-              </button>
-              <button className="bg-black flex flex-row justify-center items-center w-[140px] h-[62px] font-body-header text-[14px] text-white mt-[46px] ml-[13px]">
-                White Paper
-              </button>
+            <div className="">
+              <button className="">Buy our NFT</button>
+              <button className="">White Paper</button>
             </div>
           </div>
-          <div className="hidden invisible xl:visible lg:flex lg:h-full lg:items-start lg:mt-[68px] lg:ml-[92px]">
+          <div className="">
             <svg
               width="119"
               height="119"
