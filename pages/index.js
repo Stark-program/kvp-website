@@ -4,29 +4,76 @@ import { useState, useEffect } from "react";
 import styles from "../styles/LandingPage.module.css";
 
 export default function Home() {
-  console.log(kvpLogo);
-
-  const [windowWidth, setWindowWidth] = useState();
-  useEffect(() => {
-    function getWindowSize() {
-      let widthWindow = window.innerWidth;
-      setWindowWidth(widthWindow);
+  const [isHamOpen, setIsHamOpen] = useState(false);
+  console.log(isHamOpen);
+  function RenderHamburgerMenu() {
+    function closed() {
+      return (
+        <div className="flex items-center justify-between  justify-self-end py-8">
+          <nav>
+            <section className="MOBILE-MENU flex lg:hidden">
+              <div
+                className="HAMBURGER-ICON space-y-2"
+                onClick={() => setIsHamOpen(true)}
+              >
+                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+              </div>
+            </section>
+          </nav>
+        </div>
+      );
     }
-    getWindowSize();
-  }, []);
-  console.log("this is width", windowWidth);
+
+    function open() {
+      return (
+        <div>
+          <div
+            className="absolute top-0 right-0 px-8 py-8"
+            onClick={() => setIsHamOpen(false)}
+          >
+            <svg
+              className="h-8 w-8 text-gray-600"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </div>
+          <ul className="NAVIGATION-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
+            <li className="border-b border-gray-400 my-8 uppercase">
+              <a href="/about">About</a>
+            </li>
+            <li className="border-b border-gray-400 my-8 uppercase">
+              <a href="/portfolio">Portfolio</a>
+            </li>
+            <li className="border-b border-gray-400 my-8 uppercase">
+              <a href="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      );
+    }
+    return isHamOpen ? open() : closed();
+  }
   return (
     <div className="">
       <div className=" ">
         <div className="" /* THIS IS OUR HEADER COMPONENT*/>
-          <div className="">
+          <div className="flex flex-row justify-between">
             <svg
               // width="198"
               // height="45"
               viewBox="0 0 198 45"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className=" "
+              className="w-3/5 basis-3/4"
             >
               <path
                 d="M65.2827 5.74917V18.592H62.625V5.74917H65.2827ZM73.0079 5.74917L67.8962 12.0912L64.9461 15.249L64.4677 12.7439L66.461 10.0272L69.7478 5.74917H73.0079ZM69.987 18.592L66.1864 12.6557L68.1531 11.0151L73.132 18.592H69.987Z"
@@ -123,9 +170,12 @@ export default function Home() {
                 fill="#EACD67"
               />
             </svg>
+            <div className="flex basis-1/4 justify-center">
+              <RenderHamburgerMenu />
+            </div>
           </div>
 
-          <ul className="">
+          {/* <ul className="">
             <li className="">
               Home
               <hr className=""></hr>
@@ -144,7 +194,7 @@ export default function Home() {
             </li>
           </ul>
 
-          <button className="">Buy Our NFT</button>
+          <button className="">Buy Our NFT</button> */}
         </div>
         <hr className=""></hr>
         <div className="" /* body component */>
@@ -183,8 +233,12 @@ export default function Home() {
             </p>
 
             <div className="">
-              <button className="">Buy our NFT</button>
-              <button className="">White Paper</button>
+              <button className="bg-logo-gold w-[140px] h-[62px] font-body-header">
+                Buy our NFT
+              </button>
+              <button className="bg-black w-[140px] h-[62px] font-body-header text-white">
+                White Paper
+              </button>
             </div>
           </div>
           <div className="">
