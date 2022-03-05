@@ -9,16 +9,16 @@ export default function Home() {
   function RenderHamburgerMenu() {
     function closed() {
       return (
-        <div className="flex items-center justify-between  justify-self-end ">
+        <div className="flex items-center justify-between justify-self-end ">
           <nav>
             <section className="MOBILE-MENU flex lg:hidden">
               <div
-                className="HAMBURGER-ICON space-y-2"
+                className="HAMBURGER-ICON space-y-1"
                 onClick={() => setIsNavOpen(true)}
               >
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600 m-0"></span>
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600 m-0"></span>
-                <span className="block h-0.5 w-8 animate-pulse bg-gray-600 m-0"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+                <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
               </div>
             </section>
           </nav>
@@ -30,7 +30,7 @@ export default function Home() {
       return (
         <div>
           <div
-            className="absolute top-0 right-0 px-8 py-8"
+            className="absolute top-6 right-2 px-8 py-8"
             onClick={() => setIsNavOpen(false)}
           >
             <svg
@@ -195,10 +195,12 @@ export default function Home() {
         </div>
         <hr className=""></hr>
         <div className="flex justify-center">
-          <RenderHamburgerMenu />
+          <div className="flex justify-center bg-gray-200 w-80 rounded">
+            <RenderHamburgerMenu />
+          </div>
         </div>
         <div className="" /* body component */>
-          <div className="">
+          <div className="hidden">
             <svg
               width="94"
               height="91"
@@ -241,7 +243,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="">
+          <div className="hidden">
             <svg
               width="119"
               height="119"
