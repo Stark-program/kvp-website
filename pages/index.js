@@ -1,11 +1,11 @@
 import Head from "next/head";
-import kvpLogo from "../kvp-logo.png";
+import placeHolderKey from "../placeholderKey.png";
 import { useState, useEffect, useMemo } from "react";
 import styles from "../styles/LandingPage.module.css";
 
 export default function Home() {
   const [isNavOpen, setIsNavOpen] = useState(false);
-
+  console.log(placeHolderKey);
   function RenderHamburgerMenu() {
     function closed() {
       return (
@@ -194,12 +194,12 @@ export default function Home() {
 
           <button className="">Buy Our NFT</button> */}
         </div>
-        <hr className=""></hr>
-        <div className="flex justify-center">
+        <hr className="mt-3"></hr>
+        {/* <div className="flex justify-center">
           <div className="flex justify-center bg-gray-200 w-3/4 rounded py-1">
             <RenderHamburgerMenu />
           </div>
-        </div>
+        </div> */}
         <div
           className="flex flex-col justify-center items-center" /* body component */
         >
@@ -240,10 +240,10 @@ export default function Home() {
             </p>
 
             <div className="flex justify-center mt-[60px]">
-              <button className="bg-logo-gold w-[140px] h-[62px] font-body-header mr-2">
+              <button className="bg-logo-gold w-[100px] h-[50px] rounded font-body-header mr-2 text-[15px]">
                 Buy our NFT
               </button>
-              <button className="bg-black w-[140px] h-[62px] font-body-header text-white ml-2">
+              <button className="bg-black w-[100px] h-[50px] rounded font-body-header text-white ml-2 text-[15px]">
                 White Paper
               </button>
             </div>
@@ -340,9 +340,13 @@ export default function Home() {
           <div className="flex justify-center w-full">
             <div className="bg-white w-11/12 h-80 skew-y-12 -mt-20"></div>
           </div>
-          <div className="flex flex-row skew-y-12 w-full h-full justify-center">
-            <div className="text-white">img</div>
-            <div className="text-white">about</div>
+          <div className="flex flex-row skew-y-12 w-full h-full justify-center mt-6">
+            <div className="text-white">
+              <img src={placeHolderKey.src} className="h-60 w-40" />
+            </div>
+            <div className="text-white">
+              <h1>What this project is about</h1>
+            </div>
           </div>
         </div>
       </div>
