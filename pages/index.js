@@ -341,13 +341,46 @@ export default function Home() {
             <div className="bg-white w-11/12 h-80 skew-y-12 -mt-20"></div>
           </div>
           <div className="flex flex-row skew-y-12 w-full h-full justify-center mt-6">
-            <div className="text-white">
+            <div className="text-white w-40 h-60 basis-2/5 ml-1">
               <img src={placeHolderKey.src} className="h-60 w-40" />
             </div>
-            <div className="text-white">
-              <h1>What this project is about</h1>
+            <div className="text-white basis-3/5 ml-1">
+              <h1 className="font-body-header text-[25px]">
+                Our <span className="text-logo-gold">product</span>,
+              </h1>
+              <h1 className="font-body-header text-[25px]">
+                Everything <span className="text-logo-gold">about us</span>
+              </h1>
+              <p className="font-body-header text-[12px]">
+                {" "}
+                arcu eget. Eget blandit morbi vitae eget dolor. Amet pulvinar id
+                risus volutpat aliquam sed purus velit. Sapien netus pretium
+                magna sem viverra neque. Sed pellentesque varius dolor, in purus
+                integer lobortis vitae euismod. Nisl interdum commodo quis.
+              </p>
+              <div className="flex items-center mt-1">
+                {/* <span className="">
+                  <hr className="w-10 mx-1"></hr>
+                </span> */}
+                <button className=" basis-3/12 border border-solid px-2 py-1 font-body-header text-[8px]">
+                  Read More
+                </button>
+                <span className="basis-7/12 w-full mx-1">
+                  <hr className="decoration-logo-gold"></hr>
+                </span>
+              </div>
             </div>
           </div>
+        </div>
+        <div
+          className="flex flex-row justify-center space-x-2 mt-10" /* BOTTOM OF PAGE *NOT THE FOOTER* ### */
+        >
+          <div>
+            <h1 className="font-body-header font-bold text-[20px]">
+              Get in touch
+            </h1>
+          </div>
+          <div>form to fill out</div>
         </div>
       </div>
     </div>
