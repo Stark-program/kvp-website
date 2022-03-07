@@ -67,14 +67,14 @@ export default function Home() {
     <div className="">
       <div className="min-h-screen ">
         <div className="" /* THIS IS OUR HEADER COMPONENT*/>
-          <div className="flex flex-row justify-center">
+          <div className="flex flex-row justify-center  ">
             <svg
               // width="198"
               // height="45"
               viewBox="0 0 198 45"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-3/5"
+              className="w-3/5 drop-shadow-lg"
             >
               <path
                 d="M65.2827 5.74917V18.592H62.625V5.74917H65.2827ZM73.0079 5.74917L67.8962 12.0912L64.9461 15.249L64.4677 12.7439L66.461 10.0272L69.7478 5.74917H73.0079ZM69.987 18.592L66.1864 12.6557L68.1531 11.0151L73.132 18.592H69.987Z"
@@ -229,7 +229,7 @@ export default function Home() {
               />
             </svg>
           </div>
-          <div className="">
+          <div className="shadow-slate-300 shadow-2xl rounded-lg mt-6">
             <h1 className="text-center font-body-header font-bold text-[35px]">
               Buy your KEY to a vacation home!
             </h1>
@@ -240,11 +240,11 @@ export default function Home() {
             </p>
 
             <div className="flex justify-center mt-[60px]">
-              <button className="bg-logo-gold w-[100px] h-[50px] rounded font-body-header mr-2 text-[15px]">
-                Buy our NFT
+              <button className="bg-logo-gold w-[100px] h-[50px] rounded font-body-header mr-2 text-[15px] mb-1">
+                Buy a Key
               </button>
               <button className="bg-black w-[100px] h-[50px] rounded font-body-header text-white ml-2 text-[15px]">
-                White Paper
+                Properties
               </button>
             </div>
           </div>
