@@ -67,8 +67,8 @@ export default function Home() {
   }
 
   return (
-    <div className="lg:flex lg:justify-center">
-      <div className="min-h-screen lg:w-lg-container ">
+    <div className="lg:flex lg:justify-center ">
+      <div className="min-h-screen lg:w-4/5">
         <div className="" /* THIS IS OUR HEADER COMPONENT*/>
           <div className="flex flex-row justify-center ">
             <svg
@@ -77,7 +77,7 @@ export default function Home() {
               viewBox="0 0 934 576"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="w-3/5 drop-shadow-lg"
+              className="w-3/5 drop-shadow-lg h-24 mt-2"
             >
               {/* <path
                 d="M202.13 565.27H210.37L206.25 553.49L202.13 565.27Z"
