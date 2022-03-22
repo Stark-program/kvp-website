@@ -15,6 +15,7 @@ import { FaTiktok } from "react-icons/fa";
 
 export default function Home() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isNewsletterOpen, setIsNewsletterOpen] = useState(false);
   console.log(kvpLogo);
   function RenderHamburgerMenu() {
     function closed() {
@@ -73,6 +74,9 @@ export default function Home() {
     return isNavOpen ? open() : closed();
   }
 
+  function newsletterModal() {
+    return <div>Test</div>;
+  }
   return (
     <div className="lg:flex lg:justify-center">
       <div className="min-h-screen w-screen">
@@ -1049,7 +1053,10 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             {" "}
-            <button className="bg-logo-gold border-2 border-solid border-zinc-600 w-[200px] h-[50px] rounded font-body-header mr-2 text-[15px] mb-1 shadow-lg">
+            <button
+              className="bg-logo-gold border-2 border-solid border-zinc-600 w-[200px] h-[50px] rounded font-body-header mr-2 text-[15px] mb-1 shadow-lg"
+              onClick={() => setIsNewsletterOpen(true)}
+            >
               Signup for our Newsletter!
             </button>
           </div>
