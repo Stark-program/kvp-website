@@ -1060,18 +1060,17 @@ export default function Home() {
               Signup for our Newsletter!
             </button>
           </div>
-          <div className="flex flex-row mb-1 mt-6">
-            <div className="flex flex-col basis-1/2 text-center mb-2">
+          <div className="flex flex-col mb-1 mt-6">
+            <div className="flex flex-col text-center mb-2">
               <h1 className="font-body-header font-bold text-[20px]">
                 Questions?
               </h1>
-              <p>Email us!</p>
             </div>
-            <div className="flex flex-col basis-1/2 text-center mb-2">
-              <h4 className="text-[12px] text-logo-gold font-body-header font-medium underline">
+            <div className="flex flex-row space-x-4 text-center justify-center mb-2 ml-2">
+              {/* <h4 className="text-[12px] text-logo-gold font-body-header font-medium underline align-middle">
                 Email Address
-              </h4>
-              <p className="font-body-header text-[20px] font-medium pr-2">
+              </h4> */}
+              <p className=" text-right font-body-header text-[20px] font-medium ">
                 keyvacationproperties@gmail.com
               </p>
             </div>
