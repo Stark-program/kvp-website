@@ -12,11 +12,25 @@ import {
   AiOutlineArrowDown,
 } from "react-icons/ai";
 import { FaTiktok } from "react-icons/fa";
+import { Modal, Button } from "antd";
+import "antd/dist/antd.css";
 
 export default function Home() {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const [isNewsletterOpen, setIsNewsletterOpen] = useState(false);
-  console.log(kvpLogo);
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  const showModal = () => {
+    setIsModalVisible(true);
+  };
+
+  const handleOk = () => {
+    setIsModalVisible(false);
+  };
+
+  const handleCancel = () => {
+    setIsModalVisible(false);
+  };
+
   function RenderHamburgerMenu() {
     function closed() {
       return (
@@ -75,7 +89,18 @@ export default function Home() {
   }
 
   function newsletterModal() {
-    return <div>Test</div>;
+    return (
+      <Modal
+        title="Basic Modal"
+        visible={isModalVisible}
+        onOk={handleOk}
+        onCancel={handleCancel}
+      >
+        <p>Some contents...</p>
+        <p>Some contents...</p>
+        <p>Some contents...</p>
+      </Modal>
+    );
   }
   return (
     <div className="lg:flex lg:justify-center">
@@ -1055,10 +1080,21 @@ export default function Home() {
             {" "}
             <button
               className="bg-logo-gold border-2 border-solid border-zinc-600 w-[200px] h-[50px] rounded font-body-header mr-2 text-[15px] mb-1 shadow-lg"
-              onClick={() => setIsNewsletterOpen(true)}
+              onClick={showModal}
             >
               Signup for our Newsletter!
             </button>
+            <Modal
+              title="Test"
+              visible={isModalVisible}
+              onOk={handleOk}
+              onCancel={handleCancel}
+              bodyStyle={{ overflow: "scroll" }}
+            >
+              <p>Some contents...</p>
+              <p>Some contents...</p>
+              <p>Some contents...</p>
+            </Modal>
           </div>
           <div className="flex flex-col mb-1 mt-6">
             <div className="flex flex-col text-center mb-2">
