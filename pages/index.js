@@ -21,9 +21,7 @@ import FooterLogoComponents from "../components/svglogos/kvplogofooter";
 import BlackandGoldDecoration from "../components/svglogos/blackandgolddecoration";
 
 export default function Home() {
-  const [isNavOpen, setIsNavOpen] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false);
-  console.log(FooterLogoComponents.kvpLogo());
 
   const showModal = () => {
     setIsModalVisible(true);
@@ -159,18 +157,41 @@ export default function Home() {
               className="bg-logo-gold border-2 border-solid border-zinc-600 w-[200px] h-[50px] rounded font-body-header mr-2 text-[15px] mb-1 shadow-lg"
               onClick={showModal}
             >
-              Signup for our Newsletter!
+              Project Development
             </button>
             <Modal
-              title="Test"
               visible={isModalVisible}
-              onOk={handleOk}
+              // onOk={handleOk}
               onCancel={handleCancel}
-              bodyStyle={{ overflow: "scroll" }}
+              closable={false}
             >
-              <p>Some contents...</p>
-              <p>Some contents...</p>
-              <p>Some contents...</p>
+              <div className="flex flex-col justify-center">
+                <h1 className="font-body-header text-center text-[40px] mb-0">
+                  Sign up now
+                </h1>
+                <p className="text-center font-body-header">
+                  Keep up to date with project development and announcements!
+                </p>
+              </div>
+              <div className="flex flex-col">
+                <div className="flex flex-row justify-center">
+                  <input
+                    placeholder="Enter your first name..."
+                    className="w-1/2"
+                  ></input>
+                </div>
+                <div className="flex flex-row justify-center ">
+                  <input
+                    placeholder="Enter your email..."
+                    className="w-1/2 border-solid"
+                  ></input>
+                </div>
+                <div className="flex justify-center">
+                  <Button type="primary" className="w-1/3">
+                    Test
+                  </Button>
+                </div>
+              </div>
             </Modal>
           </div>
           <div className="flex flex-col mb-1 mt-6">
@@ -206,9 +227,9 @@ export default function Home() {
             </div>
           </div>
           <div className="flex basis-2/4 justify-center items-center flex-row space-x-3 text-white mt-1">
-            <BsFacebook />
-            <AiFillTwitterCircle />
-            <BsDiscord />
+            <BsFacebook className="h-4 " />
+            <AiFillTwitterCircle className="h-4 " />
+            <BsDiscord className="h-4 " />
           </div>
           <div className="flex basis-1/4 justify-end items-center text-white mr-4">
             <p className="text-[8px] font-body-header">
