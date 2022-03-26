@@ -1,4 +1,4 @@
-import { MongoClient } from "mongodb";
+import mongoose from "mongoose";
 
 const { MONGODB_URI, MONGODB_DB } = process.env;
 
@@ -21,30 +21,24 @@ if (!MONGODB_DB) {
  * in development. This prevents connections growing exponentially
  * during API Route usage.
  */
-let cached = global.mongo;
+let cached = global.mongoose;
 
 if (!cached) {
-  cached = global.mongo = { conn: null, promise: null };
+  cached = global.mongoose = { conn: null, promise: null };
 }
 
 export async function connectToDatabase() {
   if (cached.conn) {
-    console.log("connection was cached");
     return cached.conn;
   }
 
   if (!cached.promise) {
     const opts = {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
+      bufferCommands: false,
     };
 
-    cached.promise = MongoClient.connect(MONGODB_URI, opts).then((client) => {
-      console.log("new connection made to DB");
-      return {
-        client,
-        db: client.db(MONGODB_DB),
-      };
+    cached.promise = mongoose.connect(MONGODB_URI, opts).then((client) => {
+      return mongoose;
     });
   }
   cached.conn = await cached.promise;

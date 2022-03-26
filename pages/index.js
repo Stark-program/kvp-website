@@ -24,12 +24,18 @@ export default function Home() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [modalFirstName, setModalFirstName] = useState("");
   const [modalEmail, setModalEmail] = useState("");
+
+  console.log(modalEmail, modalFirstName);
   const showModal = () => {
     setIsModalVisible(true);
   };
 
   const handleOk = () => {
-    axios.post("/api/emails").then((res) => {
+    let data = {
+      first_name: modalFirstName,
+      email: modalEmail,
+    };
+    axios.post("/api/emails", data).then((res) => {
       console.log(res);
     });
     setIsModalVisible(false);
@@ -178,12 +184,14 @@ export default function Home() {
                   <input
                     placeholder="Enter your first name..."
                     className="w-2/3 mb-1 border-solid outline-1 outline pl-1"
+                    onChange={(e) => setModalFirstName(e.target.value)}
                   ></input>
                 </div>
                 <div className="flex flex-row justify-center ">
                   <input
                     placeholder="Enter your email..."
                     className="w-2/3 border-solid mt-1 mb-2 outline border-solid outline-1 pl-1"
+                    onChange={(e) => setModalEmail(e.target.value)}
                   ></input>
                 </div>
                 <div className="flex flex-col justify-center items-center">
