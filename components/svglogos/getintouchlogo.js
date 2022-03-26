@@ -45,8 +45,8 @@ export default function GetInTouchLogo() {
           fill="#000000"
         />
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M690.5 53.1148C688.5 57.7295 690.5 134.164 690.5 134.164C690.5 134.164 692.5 143.361 701 144C703.096 144.158 707.474 144.238 713 144.268C722.979 144.324 736.702 144.22 747.5 144.126C754.967 144.061 761.036 144 763.5 144C771.5 144 772 134.164 772 134.164C772 134.164 773.5 60.5 772 53.1148C770.5 45.7295 763.5 44.0656 763.5 44.0656C763.5 44.0656 706.5 42.1311 701 44.0656C695.5 46 692.5 48.5 690.5 53.1148ZM713 120.197V65.1148C713 63.2295 747.5 64.5 747.5 65.1148V120.197C747.5 121.5 713 120.197 713 120.197Z"
           fill="#000000"
         />
@@ -59,9 +59,9 @@ export default function GetInTouchLogo() {
           width="1130"
           height="152.284"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"

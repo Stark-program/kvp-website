@@ -153,12 +153,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.767) scale(743.237 743.239)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint1_radial_97_4"
@@ -168,12 +168,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.77) scale(743.236 743.243)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint2_radial_97_4"
@@ -183,12 +183,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.763) scale(743.239 743.235)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint3_radial_97_4"
@@ -198,12 +198,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.77) scale(743.236 743.243)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint4_radial_97_4"
@@ -213,12 +213,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.767) scale(743.237 743.239)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint5_radial_97_4"
@@ -228,12 +228,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.77) scale(743.245 743.243)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint6_radial_97_4"
@@ -243,12 +243,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.763) scale(743.239 743.235)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint7_radial_97_4"
@@ -258,12 +258,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.472 -196.762) scale(743.241 743.235)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint8_radial_97_4"
@@ -273,12 +273,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.77) scale(743.24 743.243)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint9_radial_97_4"
@@ -288,12 +288,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.765) scale(743.238)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint10_radial_97_4"
@@ -303,12 +303,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.765) scale(743.237)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint11_radial_97_4"
@@ -318,12 +318,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.765) scale(743.237)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint12_radial_97_4"
@@ -333,12 +333,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.764) scale(743.237)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint13_radial_97_4"
@@ -348,12 +348,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.765) scale(743.237 743.238)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint14_radial_97_4"
@@ -363,12 +363,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.763) scale(743.237 743.235)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint15_radial_97_4"
@@ -378,12 +378,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.765) scale(743.239 743.238)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint16_radial_97_4"
@@ -393,12 +393,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.763) scale(743.238 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint17_radial_97_4"
@@ -408,12 +408,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.763) scale(743.237 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint18_radial_97_4"
@@ -423,12 +423,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.764) scale(743.238 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint19_radial_97_4"
@@ -438,12 +438,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.764) scale(743.238 743.237)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint20_radial_97_4"
@@ -453,12 +453,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.763) scale(743.238 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint21_radial_97_4"
@@ -468,12 +468,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.763) scale(743.238 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint22_radial_97_4"
@@ -483,12 +483,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.763) scale(743.238 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint23_radial_97_4"
@@ -498,12 +498,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.764) scale(743.238 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint24_radial_97_4"
@@ -513,12 +513,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.764) scale(743.236 743.237)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint25_radial_97_4"
@@ -528,12 +528,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.763) scale(743.236 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint26_radial_97_4"
@@ -543,12 +543,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.763) scale(743.238 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint27_radial_97_4"
@@ -558,12 +558,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.763) scale(743.238 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint28_radial_97_4"
@@ -573,12 +573,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.763) scale(743.238 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint29_radial_97_4"
@@ -588,12 +588,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.471 -196.763) scale(743.237 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint30_radial_97_4"
@@ -603,12 +603,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.763) scale(743.238 743.236)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint31_radial_97_4"
@@ -618,12 +618,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.762) scale(743.24 743.235)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint32_radial_97_4"
@@ -633,12 +633,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.765) scale(743.237)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
         <radialGradient
           id="paint33_radial_97_4"
@@ -648,12 +648,12 @@ export default function HeaderLogo() {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(538.47 -196.765) scale(743.237)"
         >
-          <stop stop-color="#FFFBCC" />
-          <stop offset="0.1171" stop-color="#FBEEB7" />
-          <stop offset="0.3487" stop-color="#EFD88C" />
-          <stop offset="0.3708" stop-color="#EED688" />
-          <stop offset="0.6854" stop-color="#EBBB10" />
-          <stop offset="1" stop-color="#C3922E" />
+          <stop stopColor="#FFFBCC" />
+          <stop offset="0.1171" stopColor="#FBEEB7" />
+          <stop offset="0.3487" stopColor="#EFD88C" />
+          <stop offset="0.3708" stopColor="#EED688" />
+          <stop offset="0.6854" stopColor="#EBBB10" />
+          <stop offset="1" stopColor="#C3922E" />
         </radialGradient>
       </defs>
     </svg>

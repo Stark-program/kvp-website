@@ -164,6 +164,7 @@ export default function Home() {
               // onOk={handleOk}
               onCancel={handleCancel}
               closable={false}
+              footer={null}
             >
               <div className="flex flex-col justify-center">
                 <h1 className="font-body-header text-center text-[40px] mb-0">
@@ -177,19 +178,25 @@ export default function Home() {
                 <div className="flex flex-row justify-center">
                   <input
                     placeholder="Enter your first name..."
-                    className="w-1/2"
+                    className="w-2/3 mb-1 border-solid outline-1 outline pl-1"
                   ></input>
                 </div>
                 <div className="flex flex-row justify-center ">
                   <input
                     placeholder="Enter your email..."
-                    className="w-1/2 border-solid"
+                    className="w-2/3 border-solid mt-1 mb-2 outline border-solid outline-1 pl-1"
                   ></input>
                 </div>
-                <div className="flex justify-center">
-                  <Button type="primary" className="w-1/3">
-                    Test
+                <div className="flex flex-col justify-center">
+                  <Button type="primary" className="">
+                    Submit
                   </Button>
+                  <button
+                    className="text-[10px] mt-2 underline font-body-header"
+                    onClick={handleCancel}
+                  >
+                    No Thanks
+                  </button>
                 </div>
               </div>
             </Modal>
