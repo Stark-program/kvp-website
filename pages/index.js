@@ -1,5 +1,5 @@
 import React from "react";
-
+import axios from "axios";
 import placeHolderKey from "../placeholderKey.png";
 
 import kvpLogo from "../kvp_logo.svg";
@@ -22,12 +22,16 @@ import BlackandGoldDecoration from "../components/svglogos/blackandgolddecoratio
 
 export default function Home() {
   const [isModalVisible, setIsModalVisible] = useState(false);
-
+  const [modalFirstName, setModalFirstName] = useState("");
+  const [modalEmail, setModalEmail] = useState("");
   const showModal = () => {
     setIsModalVisible(true);
   };
 
   const handleOk = () => {
+    axios.post("/api/emails").then((res) => {
+      console.log(res);
+    });
     setIsModalVisible(false);
   };
 
@@ -69,7 +73,7 @@ export default function Home() {
           className="flex flex-col justify-center items-center" /* body component */
         >
           <div className="hidden">{BlackandGoldDecoration.black()}</div>
-          <div className="shadow-slate-300 shadow-2xl rounded-lg mt-6">
+          <div className="  rounded-lg mt-6">
             <h1 className="text-center font-body-header font-bold text-[35px]">
               Buy your KEY to a vacation home!
             </h1>
@@ -159,22 +163,17 @@ export default function Home() {
             >
               Project Development
             </button>
-            <Modal
-              visible={isModalVisible}
-              // onOk={handleOk}
-              onCancel={handleCancel}
-              closable={false}
-              footer={null}
-            >
-              <div className="flex flex-col justify-center">
+            <Modal visible={isModalVisible} closable={false} footer={null}>
+              <div className="flex flex-col justify-center bg-logo-gold rounded-t">
                 <h1 className="font-body-header text-center text-[40px] mb-0">
-                  Sign up now
+                  Sign up
                 </h1>
                 <p className="text-center font-body-header">
                   Keep up to date with project development and announcements!
+                  You will receive an update monthly
                 </p>
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col bg-logo-gold rounded-b">
                 <div className="flex flex-row justify-center">
                   <input
                     placeholder="Enter your first name..."
@@ -187,12 +186,12 @@ export default function Home() {
                     className="w-2/3 border-solid mt-1 mb-2 outline border-solid outline-1 pl-1"
                   ></input>
                 </div>
-                <div className="flex flex-col justify-center">
-                  <Button type="primary" className="">
+                <div className="flex flex-col justify-center items-center">
+                  <Button onClick={handleOk} type="primary" className="w-3/4">
                     Submit
                   </Button>
                   <button
-                    className="text-[10px] mt-2 underline font-body-header"
+                    className="text-[10px] mt-2 mb-2 underline font-body-header"
                     onClick={handleCancel}
                   >
                     No Thanks
@@ -215,12 +214,14 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col justify-center">
-          <h4 className="flex justify-center">Follow our socials below!</h4>
+          <h4 className="flex justify-center font-body-header">
+            Follow our socials below!
+          </h4>
 
-          <div className="flex flex-row justify-center space-x-3 pr-4">
-            <AiOutlineArrowDown />
-            <AiOutlineArrowDown />
-            <AiOutlineArrowDown />
+          <div className="flex flex-row justify-center space-x-4 mb-1">
+            <AiFillInstagram size={25} />
+            <AiFillTwitterCircle size={25} />
+            <BsDiscord size={25} />
           </div>
         </div>
         <div
@@ -233,14 +234,10 @@ export default function Home() {
               <div>{FooterLogoComponents.properties()}</div>
             </div>
           </div>
-          <div className="flex basis-2/4 justify-center items-center flex-row space-x-3 text-white mt-1">
-            <BsFacebook className="h-4 " />
-            <AiFillTwitterCircle className="h-4 " />
-            <BsDiscord className="h-4 " />
-          </div>
+          <div className="flex basis-2/4 justify-center items-center flex-row space-x-3 text-white mt-1 "></div>
           <div className="flex basis-1/4 justify-end items-center text-white mr-4">
-            <p className="text-[8px] font-body-header">
-              © 2021 All rights reserved.
+            <p className="text-[8px] font-body-header mb-0">
+              © 2022 All rights reserved.
             </p>
           </div>
         </div>
