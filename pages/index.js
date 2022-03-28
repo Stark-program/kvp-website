@@ -1,10 +1,8 @@
 import React from "react";
 import axios from "axios";
-import placeHolderKey from "../placeholderKey.png";
-
-import kvpLogo from "../kvp_logo.svg";
-import { useState, useEffect, useMemo } from "react";
 import styles from "../styles/LandingPage.module.css";
+import placeHolderKey from "../placeholderKey.png";
+import { useState, useEffect, useMemo } from "react";
 import { BsFacebook, BsDiscord } from "react-icons/bs";
 import {
   AiFillTwitterCircle,
@@ -24,7 +22,7 @@ export default function Home() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [modalFirstName, setModalFirstName] = useState("");
   const [modalEmail, setModalEmail] = useState("");
-
+  console.log(styles.test);
   console.log(modalEmail, modalFirstName);
   const showModal = () => {
     setIsModalVisible(true);
@@ -46,8 +44,8 @@ export default function Home() {
   };
 
   return (
-    <div className="lg:flex lg:justify-center">
-      <div className="min-h-screen w-screen">
+    <div className="lg:flex lg:justify-center bg-[#E5E5E5]">
+      <div className="min-h-screen xs:w-screen  bg-white test">
         <div className="" /* THIS IS OUR HEADER COMPONENT*/>
           <div className="flex flex-row justify-center ">
             <HeaderLogo className="w-3/5 drop-shadow-lg h-24 mt-2" />
@@ -88,7 +86,6 @@ export default function Home() {
               Providing the next innovative entry to your future vacation
               rentals!
             </p>
-
             <div className="flex justify-center mt-[60px]">
               <button className="hidden bg-black w-[100px] h-[50px] rounded font-body-header text-white ml-2 text-[15px]">
                 Properties
@@ -104,8 +101,8 @@ export default function Home() {
           className="flex flex-col justify-center h-full bg-black -skew-y-12 mt-20 relative z-10" /* PRODUCT PLACEMENT */
         >
           <div className="flex justify-center w-full">
-            <div className="bg-white w-11/12 skew-y-12 -mt-20">
-              <video className="w-full h-full" controls>
+            <div className="bg-white w-11/12 md:w-2/4 skew-y-12 -mt-20">
+              <video className="w-full h-full " controls>
                 <source src="/productVideo.mp4" type="video/mp4" />
               </video>
             </div>
@@ -121,7 +118,7 @@ export default function Home() {
               <h1 className="font-body-header text-[25px] text-white">
                 Everything <span className="text-logo-gold">about us</span>
               </h1>
-              <p className="font-body-header text-[12px]">
+              <p className="font-body-header text-[12px] mx-1">
                 {" "}
                 arcu eget. Eget blandit morbi vitae eget dolor. Amet pulvinar id
                 risus volutpat aliquam sed purus velit. Sapien netus pretium
@@ -144,7 +141,7 @@ export default function Home() {
                 magna sem viverra neque. Sed pellentesque varius dolor, in purus
                 integer lobortis vitae euismod. Nisl interdum commodo quis.
               </p>
-              <div className="flex items-center mt-1">
+              <div className="flex items-center mt-1 ml-1">
                 <button className=" basis-3/12 border border-solid px-2 py-1 font-body-header text-[10px]">
                   Read More
                 </button>
