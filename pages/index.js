@@ -45,10 +45,10 @@ export default function Home() {
 
   return (
     <div className="lg:flex lg:justify-center bg-[#E5E5E5]">
-      <div className="min-h-screen xs:w-screen  bg-white test">
+      <div className="min-h-screen w-screen lg:w-[1440px] bg-white test">
         <div className="" /* THIS IS OUR HEADER COMPONENT*/>
           <div className="flex flex-row justify-center ">
-            <HeaderLogo className="w-3/5 drop-shadow-lg h-24 mt-2" />
+            <HeaderLogo />
           </div>
           <ul className="hidden">
             <li className="">
@@ -78,11 +78,11 @@ export default function Home() {
         >
           <div className="hidden">{BlackandGoldDecoration.black()}</div>
           <div className="  rounded-lg mt-6">
-            <h1 className="text-center font-body-header font-bold text-[35px]">
+            <h1 className="text-center font-body-header font-bold text-[35px] md:text-[50px]">
               Buy your KEY to a vacation home!
             </h1>
 
-            <p className="text-center font-body-header text-[#565656] text-[12px]">
+            <p className="text-center font-body-header text-[#565656] text-[12px] md:text-[20px]">
               Providing the next innovative entry to your future vacation
               rentals!
             </p>
@@ -94,14 +94,14 @@ export default function Home() {
           </div>
           <div className="hidden">{BlackandGoldDecoration.gold()}</div>
         </div>
-        <div className="flex justify-end mt-4">
+        <div className="flex justify-end mt-4 md:mr-16">
           <ThisLogo />
         </div>
         <div
           className="flex flex-col justify-center h-full bg-black -skew-y-12 mt-20 relative z-10" /* PRODUCT PLACEMENT */
         >
           <div className="flex justify-center w-full">
-            <div className="bg-white w-11/12 md:w-2/4 skew-y-12 -mt-20">
+            <div className="bg-white w-11/12 md:w-3/4 skew-y-12 -mt-20">
               <video className="w-full h-full " controls>
                 <source src="/productVideo.mp4" type="video/mp4" />
               </video>
@@ -155,7 +155,7 @@ export default function Home() {
         <div
           className="flex flex-col justify-center " /* BOTTOM OF PAGE *NOT THE FOOTER* ### */
         >
-          <div className="relative z-0 mx-2">
+          <div className="relative z-0 mx-2 mt-6 md:mt-16 md:mr-5">
             <GetInTouchLogo />
           </div>
           <div className="flex justify-center">
@@ -207,24 +207,24 @@ export default function Home() {
           </div>
           <div className="flex flex-col mb-1 mt-6">
             <div className="flex flex-col text-center mb-2">
-              <h1 className="font-body-header font-bold text-[20px]">
+              <h1 className="font-body-header font-bold text-[20px] md:text-[25px]">
                 Questions?
               </h1>
             </div>
             <div className="flex flex-row space-x-4 text-center justify-center mb-2 ml-2">
-              <p className=" text-right font-body-header text-[20px] font-medium ">
+              <p className=" text-right font-body-header text-[20px] font-medium md:text-[25px]">
                 keyvacationproperties@gmail.com
               </p>
             </div>
           </div>
         </div>
         <div className="flex flex-col justify-center">
-          <h4 className="flex justify-center font-body-header">
+          <h4 className="flex justify-center font-body-header md:text-[20px]">
             Follow our socials below!
           </h4>
 
           <div className="flex flex-row justify-center space-x-4 mb-1">
-            <AiFillInstagram size={25} />
+            <AiFillInstagram size={25} className="" />
             <AiFillTwitterCircle size={25} />
             <BsDiscord size={25} />
           </div>
