@@ -76,7 +76,9 @@ export default function Home() {
         <div
           className="flex flex-col justify-center items-center" /* body component */
         >
-          <div className="hidden">{BlackandGoldDecoration.black()}</div>
+          <div className="hidden lg:flex lg:w-full lg:justify-end lg:mr-10">
+            {BlackandGoldDecoration.black()}
+          </div>
           <div className="  rounded-lg mt-6">
             <h1 className="text-center font-body-header font-bold text-[35px] md:text-[50px]">
               Buy your KEY to a vacation home!
@@ -92,26 +94,28 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="hidden">{BlackandGoldDecoration.gold()}</div>
+          <div className="hidden lg:flex lg:w-full lg:justify-start lg:ml-10">
+            {BlackandGoldDecoration.gold()}
+          </div>
         </div>
-        <div className="flex justify-end mt-4 md:mr-16">
+        <div className="flex justify-end mt-4 md:mr-16 lg:-skew-y-12 lg:mt-20">
           <ThisLogo />
         </div>
         <div
-          className="flex flex-col justify-center h-full bg-black -skew-y-12 mt-20 relative z-10" /* PRODUCT PLACEMENT */
+          className="flex flex-col justify-center h-max bg-black -skew-y-12 mt-20 relative z-10 lg:mt-0 " /* PRODUCT PLACEMENT */
         >
           <div className="flex justify-center w-full">
-            <div className="bg-white w-11/12 md:w-3/4 skew-y-12 -mt-20">
+            <div className="bg-white w-11/12 md:w-3/4 skew-y-12 -mt-20 ">
               <video className="w-full h-full " controls>
                 <source src="/productVideo.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
-          <div className="flex flex-col skew-y-12 w-full h-full justify-center mt-6">
-            <div className="flex justify-center text-white ml-1">
+          <div className="flex flex-col skew-y-12 w-full h-full justify-center mt-6 lg:flex-row">
+            <div className="flex justify-center text-white ml-1 lg:basis-1/3">
               <img src={placeHolderKey.src} className="h-60 w-40" />
             </div>
-            <div className="flex flex-col text-center text-white">
+            <div className="flex flex-col text-center text-white lg:basis-2/3">
               <h1 className="font-body-header text-[25px] text-white">
                 Our <span className="text-logo-gold"> product </span>,
               </h1>
@@ -161,7 +165,7 @@ export default function Home() {
           <div className="flex justify-center">
             {" "}
             <button
-              className="bg-logo-gold border-2 border-solid border-zinc-600 w-[200px] h-[50px] rounded font-body-header mr-2 text-[15px] mb-1 shadow-lg"
+              className="bg-logo-gold border-2 border-solid border-zinc-600 w-[200px] h-[50px] rounded font-body-header mr-2 text-[15px] mb-1 shadow-lg lg:w-[300px] lg:text-[25px] lg:mt-8"
               onClick={showModal}
             >
               Project Development
