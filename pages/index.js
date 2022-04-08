@@ -269,7 +269,13 @@ export default function Home() {
 
             <div className="flex flex-row justify-center space-x-4 mb-1">
               <AiFillInstagram size={25} className="" />
-              <AiFillTwitterCircle size={25} />
+              <AiFillTwitterCircle
+                className="hover:cursor-pointer"
+                size={25}
+                onClick={() => {
+                  window.open("https://twitter.com/KVP62185442");
+                }}
+              />
               <BsDiscord size={25} />
             </div>
           </div>
