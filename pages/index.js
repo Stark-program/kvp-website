@@ -128,104 +128,70 @@ export default function Home() {
                   <h1 className="font-body-header text-[25px] text-white lg:text-[35px]">
                     Everything <span className="text-logo-gold">about us</span>
                   </h1>
-                  <p className="font-body-header text-[12px] mx-1 lg:text-[15px] lg:h-60 lg:overflow-y-auto lg:no-scrollbar">
-                    {" "}
-                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
-                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
-                    netus pretium magna sem viverra neque. Sed pellentesque
-                    varius dolor, in purus integer lobortis vitae euismod. Nisl
-                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
-                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
-                    purus velit. Sapien netus pretium magna sem viverra neque.
-                    Sed pellentesque varius dolor, in purus integer lobortis
-                    vitae euismod. Nisl interdum commodo quis. arcu eget. Eget
-                    blandit morbi vitae eget dolor. Amet pulvinar id risus
-                    volutpat aliquam sed purus velit. Sapien netus pretium magna
-                    sem viverra neque. Sed pellentesque varius dolor, in purus
-                    integer lobortis vitae euismod. Nisl interdum commodo quis.
-                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
-                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
-                    netus pretium magna sem viverra neque. Sed pellentesque
-                    varius dolor, in purus integer lobortis vitae euismod. Nisl
-                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
-                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
-                    purus velit. Sapien netus pretium magna sem viverra neque.
-                    Sed pellentesque varius dolor, in purus integer lobortis
-                    vitae euismod. Nisl interdum commodo quis.arcu eget. Eget
-                    blandit morbi vitae eget dolor. Amet pulvinar id risus
-                    volutpat aliquam sed purus velit. Sapien netus pretium magna
-                    sem viverra neque. Sed pellentesque varius dolor, in purus
-                    integer lobortis vitae euismod. Nisl interdum commodo quis.
-                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
-                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
-                    netus pretium magna sem viverra neque. Sed pellentesque
-                    varius dolor, in purus integer lobortis vitae euismod. Nisl
-                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
-                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
-                    purus velit. Sapien netus pretium magna sem viverra neque.
-                    Sed pellentesque varius dolor, in purus integer lobortis
-                    vitae euismod. Nisl interdum commodo quis. arcu eget. Eget
-                    blandit morbi vitae eget dolor. Amet pulvinar id risus
-                    volutpat aliquam sed purus velit. Sapien netus pretium magna
-                    sem viverra neque. Sed pellentesque varius dolor, in purus
-                    integer lobortis vitae euismod. Nisl interdum commodo quis.
-                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
-                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
-                    netus pretium magna sem viverra neque. Sed pellentesque
-                    varius dolor, in purus integer lobortis vitae euismod. Nisl
-                    interdum commodo quis.arcu eget. Eget blandit morbi vitae
-                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
-                    purus velit. Sapien netus pretium magna sem viverra neque.
-                    Sed pellentesque varius dolor, in purus integer lobortis
-                    vitae euismod. Nisl interdum commodo quis. arcu eget. Eget
-                    blandit morbi vitae eget dolor. Amet pulvinar id risus
-                    volutpat aliquam sed purus velit. Sapien netus pretium magna
-                    sem viverra neque. Sed pellentesque varius dolor, in purus
-                    integer lobortis vitae euismod. Nisl interdum commodo quis.
-                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
-                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
-                    netus pretium magna sem viverra neque. Sed pellentesque
-                    varius dolor, in purus integer lobortis vitae euismod. Nisl
-                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
-                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
-                    purus velit. Sapien netus pretium magna sem viverra neque.
-                    Sed pellentesque varius dolor, in purus integer lobortis
-                    vitae euismod. Nisl interdum commodo quis. arcu eget. Eget
-                    blandit morbi vitae eget dolor. Amet pulvinar id risus
-                    volutpat aliquam sed purus velit. Sapien netus pretium magna
-                    sem viverra neque. Sed pellentesque varius dolor, in purus
-                    integer lobortis vitae euismod. Nisl interdum commodo
-                    quis.arcu eget. Eget blandit morbi vitae eget dolor. Amet
-                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
-                    netus pretium magna sem viverra neque. Sed pellentesque
-                    varius dolor, in purus integer lobortis vitae euismod. Nisl
-                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
-                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
-                    purus velit. Sapien netus pretium magna sem viverra neque.
-                    Sed pellentesque varius dolor, in purus integer lobortis
-                    vitae euismod. Nisl interdum commodo quis. arcu eget. Eget
-                    blandit morbi vitae eget dolor. Amet pulvinar id risus
-                    volutpat aliquam sed purus velit. Sapien netus pretium magna
-                    sem viverra neque. Sed pellentesque varius dolor, in purus
-                    integer lobortis vitae euismod. Nisl interdum commodo quis.
-                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
-                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
-                    netus pretium magna sem viverra neque. Sed pellentesque
-                    varius dolor, in purus integer lobortis vitae euismod. Nisl
-                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
-                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
-                    purus velit. Sapien netus pretium magna sem viverra neque.
-                    Sed pellentesque varius dolor, in purus integer lobortis
-                    vitae euismod. Nisl interdum commodo quis.
+                  <p className="font-body-header text-[12px] mx-1 lg:text-[15px] h-60 overflow-y-auto no-scrollbar">
+                    <span className="text-[15px] text-logo-gold">WHO?</span>{" "}
+                    <p>
+                      A company looking to add value to the NFT scene, through
+                      an innovative change in the timeshare market.{" "}
+                    </p>
+                    <span className="text-[15px] text-logo-gold">What?</span>
+                    <p>
+                      Offer virtual keys that give users access to vacation
+                      homes. Alongside their purchase of a key they get free
+                      stays every year. Depending on the KEY the user owns, will
+                      give them access to a single property, or a variety of
+                      properties <br></br>
+                      <br></br>
+                      This first initial drop will be a chance to get in early,
+                      hold onto a lifetime key, and give us the resources to
+                      move forward in purchasing vacation properties. The value
+                      of the founder key will rise through time, and is at the
+                      least, a good investment opportunity for those willing to
+                      trust us moving forward and be a part of something early.
+                    </p>
+                    <span className="text-[15px] text-logo-gold">Why?</span>
+                    <p>
+                      The average timeshare is roughly $22,000 with an average
+                      upkeep cost of $1,000 a year. Our key will give users a
+                      more affordable entry to the timeshare market. With some
+                      of the perks being a one time purchase with no upkeep
+                      costs for the user. The user will be able to sell their
+                      Key whenever they decide they no longer want it.{" "}
+                    </p>
+                    <p>
+                      The first drop, the one advertised on this page, will
+                      never expire, it will be considered the “Founder Key” and
+                      give users access to all the vacation properties acquired
+                      by KVP, forever. <br></br>
+                      <br></br>This is an exclusive key drop that is never
+                      planned to drop again.
+                      <br></br>
+                      <br></br>
+                      The goal is to give those that get in early and trust the
+                      project's development a thank you for allowing us to get
+                      this project started. Future KEY drops WILL carry an
+                      expiration date. As we develop this project and acquire
+                      more properties we will have a variety of categories for
+                      your vacationing needs. <br></br>
+                      <br></br>These keys will be <br></br>
+                      <br></br> 1. unique to the specific vacation property,
+                      giving you access to that property, and that property
+                      alone. <br></br>
+                      <br></br>2.to the State, giving you access to all the
+                      properties within that State. <br></br>
+                      <br></br>3. or to a region, giving you access to an entire
+                      region of the United states. For example, the West
+                      Coast/East Coast.
+                    </p>
                   </p>
-                  <div className="flex items-center mt-1 ml-1">
+                  {/* <div className="flex items-center mt-1 ml-1">
                     <button className=" basis-3/12 border border-solid px-2 py-1 font-body-header text-[10px]">
                       Read More
                     </button>
                     <span className="basis-7/12 w-full mx-1">
                       <hr className="decoration-logo-gold"></hr>
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
