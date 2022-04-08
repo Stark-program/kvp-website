@@ -128,7 +128,7 @@ export default function Home() {
                   <h1 className="font-body-header text-[25px] text-white lg:text-[35px]">
                     Everything <span className="text-logo-gold">about us</span>
                   </h1>
-                  <p className="font-body-header text-[12px] mx-1 lg:text-[15px] h-60 overflow-y-auto no-scrollbar">
+                  <p className="font-body-header text-[12px] mx-1 scrollbar-thin scrollbar-thumb-logo-gold scrollbar-small h-60 overflow-y-auto lg:text-[15px]  lg:scrollbar-medium">
                     <span className="text-[15px] text-logo-gold">WHO?</span>{" "}
                     <p>
                       A company looking to add value to the NFT scene, through
@@ -268,15 +268,21 @@ export default function Home() {
             </h4>
 
             <div className="flex flex-row justify-center space-x-4 mb-1">
-              <AiFillInstagram size={25} className="" />
+              <AiFillInstagram size={25} className="hover:cursor-pointer" />
               <AiFillTwitterCircle
                 className="hover:cursor-pointer"
                 size={25}
                 onClick={() => {
-                  window.open("https://twitter.com/KVP62185442");
+                  window.open("https://twitter.com/KvpKey");
                 }}
               />
-              <BsDiscord size={25} />
+              <BsDiscord
+                className="hover:cursor-pointer"
+                size={25}
+                onClick={() => {
+                  window.open("https://discord.gg/Aek6ktGJ5x");
+                }}
+              />
             </div>
           </div>
           <div

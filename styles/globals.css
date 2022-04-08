@@ -5,6 +5,16 @@
 li {
   cursor: pointer;
 }
+
+@layer utilities {
+  .scrollbar-medium::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  .scrollbar-small::-webkit-scrollbar {
+    width: 1px;
+  }
+}
 /* html,
 body {
   padding: 0;
