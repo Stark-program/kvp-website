@@ -18,6 +18,20 @@ const shapeRendering = plugin(function ({ addUtilities }) {
 
   addUtilities(newUtilities);
 });
+const hideScrollbar = plugin(function ({ addUtilities }) {
+  const newUtilities = {
+    ".no-scrollbar::-webkit-scrollbar": {
+      display: "none",
+    },
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    ".no-scrollbar": {
+      "-ms-overflow-style": "none" /* IE and Edge */,
+      "scrollbar-width": "none" /* Firefox */,
+    },
+  };
+  addUtilities(newUtilities);
+});
 
 module.exports = {
   content: [
@@ -38,5 +52,5 @@ module.exports = {
       },
     },
   },
-  plugins: [shapeRendering],
+  plugins: [shapeRendering, hideScrollbar],
 };

@@ -42,11 +42,14 @@ export default function Home() {
   const handleCancel = () => {
     setIsModalVisible(false);
   };
-
+  // us;
+  // let inHeight = window.innerHeight;
+  // let outHeight = window.outerHeight;
+  // console.log(inHeight, outHeight);
   return (
-    <div className="min-h-full">
-      <div className="lg:flex lg:justify-center bg-[#E5E5E5]">
-        <div className="min-h-screen w-screen lg:w-[1200px] 2xl:w-[1440px] bg-white test">
+    <div className="min-h-screen ">
+      <div className="lg:flex lg:justify-center h-full bg-[#E5E5E5]">
+        <div className="min-h-screen w-screen lg:w-[1200px] 2xl:w-[1300px] bg-white test">
           <div className="" /* THIS IS OUR HEADER COMPONENT*/>
             <div className="flex flex-row justify-center ">
               <HeaderLogo />
@@ -102,58 +105,127 @@ export default function Home() {
           <div className="flex justify-end mt-4 md:mr-16 lg:-skew-y-12 lg:mt-20">
             <ThisLogo />
           </div>
-          <div
-            className="flex flex-col justify-center h-max bg-black -skew-y-12 mt-20 relative z-10 lg:mt-0 lg:h-3/5 " /* PRODUCT PLACEMENT */
-          >
-            <div className="flex justify-center w-full">
-              <div className="bg-white w-11/12 md:w-3/4 skew-y-12 -mt-20  ">
-                <video className="w-full h-full " controls>
-                  <source src="/productVideo.mp4" type="video/mp4" />
-                </video>
+          <div className="flex flex-col justify-center bg-black -skew-y-12 mt-20 lg:mt-0 lg:h-min-content">
+            <div className="" /* PRODUCT PLACEMENT */>
+              <div className="flex justify-center w-full">
+                <div className="bg-white w-11/12 md:w-3/4 skew-y-12 -mt-20  ">
+                  <video className="w-full h-full " controls>
+                    <source src="/productVideo.mp4" type="video/mp4" />
+                  </video>
+                </div>
               </div>
-            </div>
-            <div className="flex flex-col skew-y-12 w-full h-full justify-center mt-6 lg:flex-row lg:mt-60">
-              <div className="flex justify-center text-white ml-1 lg:basis-1/3">
-                <img src={placeHolderKey.src} className="h-60 w-40" />
-              </div>
-              <div className="flex flex-col text-center text-white lg:basis-2/3">
-                <h1 className="font-body-header text-[25px] text-white">
-                  Our <span className="text-logo-gold"> product </span>,
-                </h1>
-                <h1 className="font-body-header text-[25px] text-white">
-                  Everything <span className="text-logo-gold">about us</span>
-                </h1>
-                <p className="font-body-header text-[12px] mx-1">
-                  {" "}
-                  arcu eget. Eget blandit morbi vitae eget dolor. Amet pulvinar
-                  id risus volutpat aliquam sed purus velit. Sapien netus
-                  pretium magna sem viverra neque. Sed pellentesque varius
-                  dolor, in purus integer lobortis vitae euismod. Nisl interdum
-                  commodo quis. arcu eget. Eget blandit morbi vitae eget dolor.
-                  Amet pulvinar id risus volutpat aliquam sed purus velit.
-                  Sapien netus pretium magna sem viverra neque. Sed pellentesque
-                  varius dolor, in purus integer lobortis vitae euismod. Nisl
-                  interdum commodo quis. arcu eget. Eget blandit morbi vitae
-                  eget dolor. Amet pulvinar id risus volutpat aliquam sed purus
-                  velit. Sapien netus pretium magna sem viverra neque. Sed
-                  pellentesque varius dolor, in purus integer lobortis vitae
-                  euismod. Nisl interdum commodo quis. arcu eget. Eget blandit
-                  morbi vitae eget dolor. Amet pulvinar id risus volutpat
-                  aliquam sed purus velit. Sapien netus pretium magna sem
-                  viverra neque. Sed pellentesque varius dolor, in purus integer
-                  lobortis vitae euismod. Nisl interdum commodo quis. arcu eget.
-                  Eget blandit morbi vitae eget dolor. Amet pulvinar id risus
-                  volutpat aliquam sed purus velit. Sapien netus pretium magna
-                  sem viverra neque. Sed pellentesque varius dolor, in purus
-                  integer lobortis vitae euismod. Nisl interdum commodo quis.
-                </p>
-                <div className="flex items-center mt-1 ml-1">
-                  <button className=" basis-3/12 border border-solid px-2 py-1 font-body-header text-[10px]">
-                    Read More
-                  </button>
-                  <span className="basis-7/12 w-full mx-1">
-                    <hr className="decoration-logo-gold"></hr>
-                  </span>
+              <div className="flex flex-col skew-y-12 w-full h-full justify-center mt-6 lg:flex-row lg:mt-60">
+                <div className="flex justify-center text-white ml-1 lg:basis-1/3">
+                  <img
+                    src={placeHolderKey.src}
+                    className="h-60 w-40 lg:h-80 lg:w-60"
+                  />
+                </div>
+                <div className="flex flex-col text-center text-white lg:basis-2/3 lg:mb-40">
+                  <h1 className="font-body-header text-[25px] text-white lg:text-[35px]">
+                    Our <span className="text-logo-gold"> product </span>,
+                  </h1>
+                  <h1 className="font-body-header text-[25px] text-white lg:text-[35px]">
+                    Everything <span className="text-logo-gold">about us</span>
+                  </h1>
+                  <p className="font-body-header text-[12px] mx-1 lg:text-[15px] lg:h-60 lg:overflow-y-auto lg:no-scrollbar">
+                    {" "}
+                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
+                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
+                    netus pretium magna sem viverra neque. Sed pellentesque
+                    varius dolor, in purus integer lobortis vitae euismod. Nisl
+                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
+                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
+                    purus velit. Sapien netus pretium magna sem viverra neque.
+                    Sed pellentesque varius dolor, in purus integer lobortis
+                    vitae euismod. Nisl interdum commodo quis. arcu eget. Eget
+                    blandit morbi vitae eget dolor. Amet pulvinar id risus
+                    volutpat aliquam sed purus velit. Sapien netus pretium magna
+                    sem viverra neque. Sed pellentesque varius dolor, in purus
+                    integer lobortis vitae euismod. Nisl interdum commodo quis.
+                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
+                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
+                    netus pretium magna sem viverra neque. Sed pellentesque
+                    varius dolor, in purus integer lobortis vitae euismod. Nisl
+                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
+                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
+                    purus velit. Sapien netus pretium magna sem viverra neque.
+                    Sed pellentesque varius dolor, in purus integer lobortis
+                    vitae euismod. Nisl interdum commodo quis.arcu eget. Eget
+                    blandit morbi vitae eget dolor. Amet pulvinar id risus
+                    volutpat aliquam sed purus velit. Sapien netus pretium magna
+                    sem viverra neque. Sed pellentesque varius dolor, in purus
+                    integer lobortis vitae euismod. Nisl interdum commodo quis.
+                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
+                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
+                    netus pretium magna sem viverra neque. Sed pellentesque
+                    varius dolor, in purus integer lobortis vitae euismod. Nisl
+                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
+                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
+                    purus velit. Sapien netus pretium magna sem viverra neque.
+                    Sed pellentesque varius dolor, in purus integer lobortis
+                    vitae euismod. Nisl interdum commodo quis. arcu eget. Eget
+                    blandit morbi vitae eget dolor. Amet pulvinar id risus
+                    volutpat aliquam sed purus velit. Sapien netus pretium magna
+                    sem viverra neque. Sed pellentesque varius dolor, in purus
+                    integer lobortis vitae euismod. Nisl interdum commodo quis.
+                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
+                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
+                    netus pretium magna sem viverra neque. Sed pellentesque
+                    varius dolor, in purus integer lobortis vitae euismod. Nisl
+                    interdum commodo quis.arcu eget. Eget blandit morbi vitae
+                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
+                    purus velit. Sapien netus pretium magna sem viverra neque.
+                    Sed pellentesque varius dolor, in purus integer lobortis
+                    vitae euismod. Nisl interdum commodo quis. arcu eget. Eget
+                    blandit morbi vitae eget dolor. Amet pulvinar id risus
+                    volutpat aliquam sed purus velit. Sapien netus pretium magna
+                    sem viverra neque. Sed pellentesque varius dolor, in purus
+                    integer lobortis vitae euismod. Nisl interdum commodo quis.
+                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
+                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
+                    netus pretium magna sem viverra neque. Sed pellentesque
+                    varius dolor, in purus integer lobortis vitae euismod. Nisl
+                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
+                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
+                    purus velit. Sapien netus pretium magna sem viverra neque.
+                    Sed pellentesque varius dolor, in purus integer lobortis
+                    vitae euismod. Nisl interdum commodo quis. arcu eget. Eget
+                    blandit morbi vitae eget dolor. Amet pulvinar id risus
+                    volutpat aliquam sed purus velit. Sapien netus pretium magna
+                    sem viverra neque. Sed pellentesque varius dolor, in purus
+                    integer lobortis vitae euismod. Nisl interdum commodo
+                    quis.arcu eget. Eget blandit morbi vitae eget dolor. Amet
+                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
+                    netus pretium magna sem viverra neque. Sed pellentesque
+                    varius dolor, in purus integer lobortis vitae euismod. Nisl
+                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
+                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
+                    purus velit. Sapien netus pretium magna sem viverra neque.
+                    Sed pellentesque varius dolor, in purus integer lobortis
+                    vitae euismod. Nisl interdum commodo quis. arcu eget. Eget
+                    blandit morbi vitae eget dolor. Amet pulvinar id risus
+                    volutpat aliquam sed purus velit. Sapien netus pretium magna
+                    sem viverra neque. Sed pellentesque varius dolor, in purus
+                    integer lobortis vitae euismod. Nisl interdum commodo quis.
+                    arcu eget. Eget blandit morbi vitae eget dolor. Amet
+                    pulvinar id risus volutpat aliquam sed purus velit. Sapien
+                    netus pretium magna sem viverra neque. Sed pellentesque
+                    varius dolor, in purus integer lobortis vitae euismod. Nisl
+                    interdum commodo quis. arcu eget. Eget blandit morbi vitae
+                    eget dolor. Amet pulvinar id risus volutpat aliquam sed
+                    purus velit. Sapien netus pretium magna sem viverra neque.
+                    Sed pellentesque varius dolor, in purus integer lobortis
+                    vitae euismod. Nisl interdum commodo quis.
+                  </p>
+                  <div className="flex items-center mt-1 ml-1">
+                    <button className=" basis-3/12 border border-solid px-2 py-1 font-body-header text-[10px]">
+                      Read More
+                    </button>
+                    <span className="basis-7/12 w-full mx-1">
+                      <hr className="decoration-logo-gold"></hr>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
