@@ -6,7 +6,7 @@ export default function HeaderLogo() {
       viewBox="0 0 934 576"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="w-3/5 drop-shadow-lg h-24 mt-2 "
+      className="w-3/5 drop-shadow-lg h-24 mt-2 lg:w-[400px] "
     >
       {/* <path
           d="M202.13 565.27H210.37L206.25 553.49L202.13 565.27Z"

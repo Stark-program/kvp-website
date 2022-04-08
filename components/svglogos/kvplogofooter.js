@@ -5,7 +5,7 @@ export default {
         viewBox="0 0 934 576"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-8 h-8 ml-4" /* LOGO */
+        className="w-8 h-8 ml-4 lg:w-10 lg:h-10" /* LOGO */
       >
         {/*   */}
         <path
@@ -629,7 +629,7 @@ export default {
         viewBox="0 0 283 37"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-12 h-2 ml-1" /* VACATION */
+        className="w-12 h-2 ml-1 lg:w-16 lg:h-4" /* VACATION */
       >
         <path
           d="M44.0898 26.77H52.3298L48.2098 14.99L44.0898 26.77Z"
@@ -870,7 +870,7 @@ export default {
         viewBox="0 0 351 36"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-12 h-2 ml-1" /*PROPERTIES */
+        className="w-12 h-2 ml-1 lg:w-16 lg:h-4" /*PROPERTIES */
       >
         <path
           d="M11.56 6.32996H7L12.28 14.77C13.78 14.58 17.23 13.85 17.23 10.55C17.23 6.33005 11.56 6.32996 11.56 6.32996Z"
