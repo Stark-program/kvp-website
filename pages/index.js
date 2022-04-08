@@ -268,7 +268,13 @@ export default function Home() {
             </h4>
 
             <div className="flex flex-row justify-center space-x-4 mb-1">
-              <AiFillInstagram size={25} className="hover:cursor-pointer" />
+              <AiFillInstagram
+                size={25}
+                className="hover:cursor-pointer"
+                onClick={() => {
+                  window.open("https://www.instagram.com/KvpKey/");
+                }}
+              />
               <AiFillTwitterCircle
                 className="hover:cursor-pointer"
                 size={25}
