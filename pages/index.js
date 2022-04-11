@@ -22,26 +22,30 @@ export default function Home() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [modalFirstName, setModalFirstName] = useState("");
   const [modalEmail, setModalEmail] = useState("");
-  console.log(styles.test);
-  console.log(modalEmail, modalFirstName);
+
   const showModal = () => {
     setIsModalVisible(true);
   };
 
   const handleOk = () => {
-    let data = {
-      first_name: modalFirstName,
-      email: modalEmail,
-    };
-    axios.post("/api/emails", data).then((res) => {
-      console.log(res);
-    });
-    setIsModalVisible(false);
+    if (modalEmail.match(/^\S+@\S+\.\S+$/)) {
+      let data = {
+        first_name: modalFirstName,
+        email: modalEmail,
+      };
+      axios.post("/api/emails", data).then((res) => {
+        console.log(res);
+      });
+      setIsModalVisible(false);
+    } else {
+      alert("Input correct email format please");
+    }
   };
 
   const handleCancel = () => {
     setIsModalVisible(false);
   };
+
   // us;
   // let inHeight = window.innerHeight;
   // let outHeight = window.outerHeight;
