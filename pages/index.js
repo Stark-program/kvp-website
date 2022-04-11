@@ -37,6 +37,8 @@ export default function Home() {
         console.log(res);
       });
       setIsModalVisible(false);
+      setModalEmail("");
+      setModalFirstName("");
     } else {
       alert("Input correct email format please");
     }
@@ -44,12 +46,10 @@ export default function Home() {
 
   const handleCancel = () => {
     setIsModalVisible(false);
+    setModalEmail("");
+    setModalFirstName("");
   };
 
-  // us;
-  // let inHeight = window.innerHeight;
-  // let outHeight = window.outerHeight;
-  // console.log(inHeight, outHeight);
   return (
     <div className="min-h-screen ">
       <div className="lg:flex lg:justify-center h-full bg-[#E5E5E5]">
@@ -230,6 +230,7 @@ export default function Home() {
                       placeholder="Enter your first name..."
                       className="w-2/3 mb-1 border-solid outline-1 outline pl-1"
                       onChange={(e) => setModalFirstName(e.target.value)}
+                      value={modalFirstName}
                     ></input>
                   </div>
                   <div className="flex flex-row justify-center ">
@@ -237,6 +238,7 @@ export default function Home() {
                       placeholder="Enter your email..."
                       className="w-2/3 border-solid mt-1 mb-2 outline border-solid outline-1 pl-1"
                       onChange={(e) => setModalEmail(e.target.value)}
+                      value={modalEmail}
                     ></input>
                   </div>
                   <div className="flex flex-col justify-center items-center">
