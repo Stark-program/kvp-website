@@ -118,12 +118,25 @@ export default function Home() {
                   </video>
                 </div>
               </div>
+              <div className="bg-black text-logo-gold skew-y-12 marquee mt-4">
+                <p className="flex text-center">
+                  MINT NOT ACTIVE! FOLLOW OUR SOCIALS AND SIGN UP FOR OUR
+                  NEWSLETTER TO STAY UP TO DATE!
+                </p>
+              </div>
               <div className="flex flex-col skew-y-12 w-full h-full justify-center mt-6 lg:flex-row lg:mt-60">
                 <div className="flex justify-center text-white ml-1 lg:basis-1/3">
-                  <img
-                    src={placeHolderKey.src}
-                    className="h-60 w-40 lg:h-80 lg:w-60"
-                  />
+                  <div className="flex flex-col">
+                    <div className="flex justify-center">
+                      <img
+                        src={placeHolderKey.src}
+                        className="h-60 w-40 lg:h-80 lg:w-60 "
+                      />
+                    </div>
+                    <div className="flex justify-center mt-8 mb-6">
+                      <h1 className="text-[white] text-[15px]"></h1>
+                    </div>
+                  </div>
                 </div>
                 <div className="flex flex-col text-center text-white lg:basis-2/3 lg:mb-40">
                   <h1 className="font-body-header text-[25px] text-white lg:text-[35px]">
